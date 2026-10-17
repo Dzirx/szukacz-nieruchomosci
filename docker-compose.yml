@@ -1,0 +1,14 @@
+services:
+  szukacz:
+    build: .
+    container_name: szukacz-nieruchomosci
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./data:/app/data
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "3"

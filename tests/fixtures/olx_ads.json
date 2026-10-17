@@ -1,0 +1,360 @@
+[
+ {
+  "id": 1102257943,
+  "title": "35m2, Garaż, Prądnik Biały, ul. Marczyńskiego",
+  "category": {
+   "id": 14,
+   "type": "real_estate",
+   "_nodeId": "Y2F0ZWdvcnk6MTQ="
+  },
+  "map": {
+   "lat": 50.09949,
+   "lon": 19.95777,
+   "radius": 0,
+   "show_detailed": true,
+   "zoom": 12
+  },
+  "isBusiness": true,
+  "url": "https://www.olx.pl/d/oferta/35m2-garaz-pradnik-bialy-ul-marczynskiego-CID3-ID1cAXDW.html",
+  "isHighlighted": true,
+  "isPromoted": true,
+  "promotion": {
+   "highlighted": true,
+   "top_ad": true,
+   "options": [],
+   "premium_ad_page": false,
+   "urgent": false,
+   "b2c_ad_page": false,
+   "seller_badge_x_years_with_olx": false
+  },
+  "externalUrl": "https://www.otodom.pl/pl/oferta/35m2-garaz-pradnik-bialy-ul-marczynskiego-ID4DlIa",
+  "protectPhone": true,
+  "createdTime": "2026-10-02T14:10:02+02:00",
+  "lastRefreshTime": "2026-10-16T16:48:24+02:00",
+  "pushupTime": "2026-10-16T16:48:24+02:00",
+  "validToTime": "2026-11-01T14:09:58+01:00",
+  "isActive": true,
+  "status": "active",
+  "params": [
+   {
+    "key": "price_per_m",
+    "name": "Cena za m²",
+    "type": "input",
+    "value": "15472.54 zł/m²",
+    "normalizedValue": "15472.54"
+   },
+   {
+    "key": "floor_select",
+    "name": "Poziom",
+    "type": "select",
+    "value": "2",
+    "normalizedValue": "floor_2"
+   },
+   {
+    "key": "furniture",
+    "name": "Umeblowane",
+    "type": "select",
+    "value": "Nie",
+    "normalizedValue": "no"
+   },
+   {
+    "key": "market",
+    "name": "Rynek",
+    "type": "select",
+    "value": "Wtórny",
+    "normalizedValue": "secondary"
+   },
+   {
+    "key": "builttype",
+    "name": "Rodzaj zabudowy",
+    "type": "select",
+    "value": "Blok",
+    "normalizedValue": "blok"
+   },
+   {
+    "key": "m",
+    "name": "Powierzchnia",
+    "type": "input",
+    "value": "35,87 m²",
+    "normalizedValue": "35.87"
+   },
+   {
+    "key": "rooms",
+    "name": "Liczba pokoi",
+    "type": "select",
+    "value": "2 pokoje",
+    "normalizedValue": "two"
+   }
+  ],
+  "itemCondition": "",
+  "price": {
+   "budget": false,
+   "free": false,
+   "exchange": false,
+   "displayValue": "555 000 zł",
+   "regularPrice": {
+    "value": 555000,
+    "currencyCode": "PLN",
+    "currencySymbol": "zł",
+    "negotiable": false,
+    "priceFormatConfig": {
+     "decimalSeparator": ",",
+     "thousandsSeparator": " "
+    }
+   }
+  },
+  "salary": null,
+  "partner": {
+   "code": "otodom_pl"
+  },
+  "isJob": false,
+  "photos": [
+   "https://ireland.apollo.olxcdn.com:443/v1/files/8dusi19rzvxg-PL/image;s=1280x853"
+  ],
+  "location": {
+   "cityName": "Kraków",
+   "cityId": 8959,
+   "cityNormalizedName": "krakow",
+   "regionName": "Małopolskie",
+   "regionId": 4,
+   "regionNormalizedName": "malopolskie",
+   "districtName": "Prądnik Biały",
+   "districtId": 275,
+   "pathName": "Małopolskie, Kraków, Prądnik Biały"
+  },
+  "urlPath": "/d/oferta/35m2-garaz-pradnik-bialy-ul-marczynskiego-CID3-ID1cAXDW.html",
+  "searchReason": "promoted",
+  "isGpsrAvailable": false,
+  "isNewFavouriteAd": false
+ },
+ {
+  "id": 1105065224,
+  "title": "3 niezależne pokoje | balkon | parking za szlabanem",
+  "category": {
+   "id": 14,
+   "type": "real_estate",
+   "_nodeId": "Y2F0ZWdvcnk6MTQ="
+  },
+  "map": {
+   "lat": 50.016758,
+   "lon": 19.950626,
+   "radius": 0,
+   "show_detailed": true,
+   "zoom": 14
+  },
+  "isBusiness": true,
+  "url": "https://www.olx.pl/d/oferta/3-niezalezne-pokoje-balkon-parking-za-szlabanem-CID3-ID1cMJVE.html",
+  "isHighlighted": true,
+  "isPromoted": true,
+  "promotion": {
+   "highlighted": true,
+   "top_ad": true,
+   "options": [],
+   "premium_ad_page": false,
+   "urgent": false,
+   "b2c_ad_page": false,
+   "seller_badge_x_years_with_olx": false
+  },
+  "externalUrl": "https://www.otodom.pl/pl/oferta/3-niezalezne-pokoje-balkon-parking-za-szlabanem-ID4DmXA",
+  "protectPhone": true,
+  "createdTime": "2026-10-15T11:33:02+02:00",
+  "lastRefreshTime": "2026-10-15T11:33:02+02:00",
+  "pushupTime": null,
+  "validToTime": "2026-11-14T11:32:58+01:00",
+  "isActive": true,
+  "status": "active",
+  "params": [
+   {
+    "key": "price_per_m",
+    "name": "Cena za m²",
+    "type": "input",
+    "value": "12061.19 zł/m²",
+    "normalizedValue": "12061.19"
+   },
+   {
+    "key": "floor_select",
+    "name": "Poziom",
+    "type": "select",
+    "value": "9",
+    "normalizedValue": "floor_9"
+   },
+   {
+    "key": "furniture",
+    "name": "Umeblowane",
+    "type": "select",
+    "value": "Tak",
+    "normalizedValue": "yes"
+   },
+   {
+    "key": "market",
+    "name": "Rynek",
+    "type": "select",
+    "value": "Wtórny",
+    "normalizedValue": "secondary"
+   },
+   {
+    "key": "builttype",
+    "name": "Rodzaj zabudowy",
+    "type": "select",
+    "value": "Blok",
+    "normalizedValue": "blok"
+   },
+   {
+    "key": "m",
+    "name": "Powierzchnia",
+    "type": "input",
+    "value": "62,10 m²",
+    "normalizedValue": "62.1"
+   },
+   {
+    "key": "rooms",
+    "name": "Liczba pokoi",
+    "type": "select",
+    "value": "3 pokoje",
+    "normalizedValue": "three"
+   }
+  ],
+  "itemCondition": "",
+  "price": {
+   "budget": false,
+   "free": false,
+   "exchange": false,
+   "displayValue": "749 000 zł",
+   "regularPrice": {
+    "value": 749000,
+    "currencyCode": "PLN",
+    "currencySymbol": "zł",
+    "negotiable": false,
+    "priceFormatConfig": {
+     "decimalSeparator": ",",
+     "thousandsSeparator": " "
+    }
+   }
+  },
+  "salary": null,
+  "partner": {
+   "code": "otodom_pl"
+  },
+  "isJob": false,
+  "photos": [
+   "https://ireland.apollo.olxcdn.com:443/v1/files/5m6avp8xfkmg1-PL/image;s=1280x960"
+  ],
+  "location": {
+   "cityName": "Kraków",
+   "cityId": 8959,
+   "cityNormalizedName": "krakow",
+   "regionName": "Małopolskie",
+   "regionId": 4,
+   "regionNormalizedName": "malopolskie",
+   "districtName": "Podgórze Duchackie",
+   "districtId": 269,
+   "pathName": "Małopolskie, Kraków, Podgórze Duchackie"
+  },
+  "urlPath": "/d/oferta/3-niezalezne-pokoje-balkon-parking-za-szlabanem-CID3-ID1cMJVE.html",
+  "searchReason": "promoted",
+  "isGpsrAvailable": false,
+  "isNewFavouriteAd": false
+ },
+ {
+  "id": 1083669380,
+  "title": "Działka rolna Kraków-Podgórze, PROMOCJA CENY 1742m",
+  "category": {
+   "id": 24,
+   "type": "real_estate",
+   "_nodeId": "Y2F0ZWdvcnk6MjQ="
+  },
+  "map": {
+   "lat": 50.03979,
+   "lon": 19.97714,
+   "radius": 7,
+   "show_detailed": false,
+   "zoom": 13
+  },
+  "isBusiness": false,
+  "url": "https://www.olx.pl/d/oferta/dzialka-rolna-krakow-podgorze-promocja-ceny-1742m-CID3-ID1bkXUo.html",
+  "isHighlighted": true,
+  "isPromoted": true,
+  "promotion": {
+   "highlighted": true,
+   "top_ad": true,
+   "options": [
+    "bundle_optimum"
+   ],
+   "premium_ad_page": false,
+   "urgent": false,
+   "b2c_ad_page": false,
+   "seller_badge_x_years_with_olx": false
+  },
+  "externalUrl": null,
+  "protectPhone": false,
+  "createdTime": "2026-07-05T13:28:52+02:00",
+  "lastRefreshTime": "2026-10-15T20:10:22+02:00",
+  "pushupTime": "2026-10-15T20:10:22+02:00",
+  "validToTime": "2026-11-10T19:44:47+01:00",
+  "isActive": true,
+  "status": "active",
+  "params": [
+   {
+    "key": "type",
+    "name": "Rodzaj",
+    "type": "select",
+    "value": "Działki rolne",
+    "normalizedValue": "dzialki-rolne"
+   },
+   {
+    "key": "m",
+    "name": "Powierzchnia",
+    "type": "input",
+    "value": "1 742 m²",
+    "normalizedValue": "1742"
+   },
+   {
+    "key": "price_per_m",
+    "name": "Cena za m²",
+    "type": "input",
+    "value": "91.27 zł/m²",
+    "normalizedValue": "91.27"
+   }
+  ],
+  "itemCondition": "",
+  "price": {
+   "budget": false,
+   "free": false,
+   "exchange": false,
+   "displayValue": "159 000 zł",
+   "regularPrice": {
+    "value": 159000,
+    "currencyCode": "PLN",
+    "currencySymbol": "zł",
+    "negotiable": true,
+    "priceFormatConfig": {
+     "decimalSeparator": ",",
+     "thousandsSeparator": " "
+    }
+   }
+  },
+  "salary": null,
+  "partner": {
+   "code": ""
+  },
+  "isJob": false,
+  "photos": [
+   "https://ireland.apollo.olxcdn.com:443/v1/files/wnp79tngr69g2-PL/image;s=640x1108"
+  ],
+  "location": {
+   "cityName": "Kraków",
+   "cityId": 8959,
+   "cityNormalizedName": "krakow",
+   "regionName": "Małopolskie",
+   "regionId": 4,
+   "regionNormalizedName": "malopolskie",
+   "districtName": "Podgórze",
+   "districtId": 263,
+   "pathName": "Małopolskie, Kraków, Podgórze"
+  },
+  "urlPath": "/d/oferta/dzialka-rolna-krakow-podgorze-promocja-ceny-1742m-CID3-ID1bkXUo.html",
+  "searchReason": "promoted",
+  "isGpsrAvailable": false,
+  "isNewFavouriteAd": false
+ }
+]

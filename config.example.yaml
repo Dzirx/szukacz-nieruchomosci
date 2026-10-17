@@ -1,0 +1,78 @@
+# Skopiuj do config.yaml i dostosuj: cp config.example.yaml config.yaml
+# OLX: ustaw filtry na olx.pl i wklej link. Morizon: link do miasta/powiatu. FB: publiczne grupy (wymaga APIFY_TOKEN).
+
+interval_minutes: 10
+jitter_seconds: 60
+first_run_silent: true
+notify_price_drops: true
+send_photos: true
+
+searches:
+  - name: "Mieszkania Lublin +25 km"
+    type: mieszkanie
+    source: olx
+    url: "https://www.olx.pl/nieruchomosci/mieszkania/sprzedaz/lublin/?search%5Bdist%5D=25&search%5Bfilter_float_m:to%5D=50&search%5Bfilter_float_price:to%5D=450000"
+    market: wtorny
+    max_area_m2: 50
+    max_price: 450000
+    max_age_days: 14
+    include_otodom: true
+    exclude_keywords: ["zamiana", "udział", "licytacja", "tbs"]
+
+  - name: "Mieszkania Świdnik +25 km"
+    type: mieszkanie
+    source: olx
+    url: "https://www.olx.pl/nieruchomosci/mieszkania/sprzedaz/swidnik/?search%5Bdist%5D=25&search%5Bfilter_float_m:to%5D=50&search%5Bfilter_float_price:to%5D=450000"
+    market: wtorny
+    max_area_m2: 50
+    max_price: 450000
+    max_age_days: 14
+    include_otodom: true
+    exclude_keywords: ["zamiana", "udział", "licytacja", "tbs"]
+
+  # Morizon nie ma promienia – miasto + powiaty wokół Lublina.
+  # Uwaga: /swidnicki/ bez "lubelskie/" to powiat świdnicki na Dolnym Śląsku.
+  - name: "Morizon Lublin"
+    type: mieszkanie
+    source: morizon
+    url: "https://www.morizon.pl/mieszkania/najnowsze/lublin/?ps%5Bprice_to%5D=450000&ps%5Bliving_area_to%5D=50&ps%5Bmarket_type%5D=2"
+    max_area_m2: 50
+    max_price: 450000
+    max_age_days: 14
+    exclude_keywords: ["zamiana", "udział", "licytacja", "tbs"]
+
+  - name: "Morizon pow. świdnicki"
+    type: mieszkanie
+    source: morizon
+    url: "https://www.morizon.pl/mieszkania/najnowsze/lubelskie/swidnicki/?ps%5Bprice_to%5D=450000&ps%5Bliving_area_to%5D=50&ps%5Bmarket_type%5D=2"
+    max_area_m2: 50
+    max_price: 450000
+    max_age_days: 14
+    exclude_keywords: ["zamiana", "udział", "licytacja", "tbs"]
+
+  - name: "Morizon pow. lubelski"
+    type: mieszkanie
+    source: morizon
+    url: "https://www.morizon.pl/mieszkania/najnowsze/lubelski/?ps%5Bprice_to%5D=450000&ps%5Bliving_area_to%5D=50&ps%5Bmarket_type%5D=2"
+    max_area_m2: 50
+    max_price: 450000
+    max_age_days: 14
+    exclude_keywords: ["zamiana", "udział", "licytacja", "tbs"]
+
+  # Publiczne grupy FB przez Apify (koszt ok. 0,007 USD za post). Obie grupy w jednym uruchomieniu,
+  # 2 razy dziennie. Koszt zależy od liczby postów, nie od liczby uruchomień.
+  - name: "FB Nieruchomości Lublin i okolice"
+    type: mieszkanie
+    source: facebook_group
+    url: "https://www.facebook.com/groups/1240472846304426/"
+    extra_urls:
+      - "https://www.facebook.com/groups/355505132471115/"
+    run_at: ["10:00", "18:00"]
+    max_results: 60           # na grupę; ok. 16 h postów
+    max_area_m2: 50
+    max_price: 450000
+    min_price: 50000          # niższa cena = wynajem
+    max_age_days: 14
+    require_keywords: ["mieszkan", "kawaler", "pokoj", "pokoi", "pokój", "apartament", "lokal mieszkalny", "m2", "m²", "mkw"]
+    exclude_keywords: ["wynajmę", "do wynajęcia", "kupię", "zamienię", "siedlisk", "udział", "licytac"]
+    exclude_title_keywords: ["działk", "garaż", "dom ", "siedlisko", "lokal użytkowy", "kupię", "szukam", "poszukuję", "szukasz", "wynajem", "wynajmę"]
